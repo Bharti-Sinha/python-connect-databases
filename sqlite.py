@@ -50,12 +50,56 @@ def view():
     conn.close()
     return rows
 
+def delete(item):
+    '''
+    The method deleted ALL the rows from the database where item column has a particular value
+    as passed in the parameter
 
+    '''
+    conn = sqlite3.connect("practice.db")
+    cur = conn.cursor()
+    # delete column values from the table where item value=parameter
+    cur.execute("DELETE FROM store WHERE item=?", (item,))
+    conn.commit()
+    conn.close()
+
+
+
+def update(quantity, price, item):
+    '''
+    The method updates the rows from the database where item column has a particular value
+    as passed in the parameter
+
+    '''
+    conn = sqlite3.connect("practice.db")
+    cur = conn.cursor()
+    # delete column values from the table where item value=parameter
+    cur.execute("UPDATE store SET quantity=?, price=? WHERE item=?", (quantity, price,item))
+    conn.commit()
+    conn.close()
+
+
+# create a tabel
+create_table()
+
+# insert some values
+insert("Coffee", 2, 3)
 insert("Coffee", 2, 3)
 insert("Tea", 1, 2.5)
 insert("Cookies", 4, 5)
+# view the table values
+print("view after inserting values",view())
 
-print(view())
+# delete an entry
+delete("Coffee")
+# view the table values again
+print("view after deleting a value",view())
+
+
+# delete an entry
+update(3, 7, "Cookies")
+# view the table values again
+print("view after updating 'cookies' rows", view())
 
 
 
