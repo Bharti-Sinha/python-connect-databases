@@ -1,6 +1,6 @@
 # python-connect-databases
 
-## TOC
+## Table Of Contents
 
 1. [Overview](#overview)
 2. [SQLite](#sqlite)
