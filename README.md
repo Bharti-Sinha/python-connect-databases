@@ -1,6 +1,7 @@
 # python-connect-databases
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![PostgreSQL 10.18](https://img.shields.io/badge/PostgreSQL-10.18-blue.svg)](https://www.postgresql.org/download/)
 
 ## Table Of Contents
 
@@ -29,3 +30,4 @@ The PostgreSQL on the other hand deploys Client-Server Model and needs to set up
 2. Add/Insert values into the table
 3. Update values of the table
 4. Delete values from the table
+5. View the table values
