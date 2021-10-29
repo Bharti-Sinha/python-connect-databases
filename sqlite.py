@@ -88,18 +88,18 @@ insert("Coffee", 2, 3)
 insert("Tea", 1, 2.5)
 insert("Cookies", 4, 5)
 # view the table values
-print("view after inserting values",view())
+print("view after inserting values: ",view())
 
 # delete an entry
 delete("Coffee")
 # view the table values again
-print("view after deleting a value",view())
+print("view after deleting rows with 'coffee' as item values: ",view())
 
 
-# delete an entry
+# update an entry
 update(3, 7, "Cookies")
 # view the table values again
-print("view after updating 'cookies' rows", view())
+print("view after updating 'cookies' rows: ", view())
 
 
 
