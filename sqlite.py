@@ -52,6 +52,8 @@ def view():
 
 
 insert("Coffee", 2, 3)
+insert("Tea", 1, 2.5)
+insert("Cookies", 4, 5)
 
 print(view())
 
