@@ -1,6 +1,6 @@
 # python-connect-databases
 
-## TOC later
+## TOC
 
 1. [Overview](#overview)
 2. [SQLite](#sqlite)
