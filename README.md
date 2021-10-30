@@ -1,5 +1,7 @@
 # python-connect-databases
 
+![image-header](images/header_image.png)
+
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PostgreSQL 10.18](https://img.shields.io/badge/PostgreSQL-10.18-blue.svg)](https://www.postgresql.org/download/)
 
