@@ -7,6 +7,7 @@
 
 1. [Overview](#overview)
 2. [SQLite](#sqlite)
+3. [PostgreSQL](#postgresql)
 
 # **Overview**
 
@@ -20,11 +21,21 @@ This repository is intends to help beginners to connect to databases such as SQL
 
 The PostgreSQL on the other hand deploys Client-Server Model and needs to set up a server.
 
-1. SQLite
+# 1. SQLite
 
 - `sqlite_connection.py` file explains the first 5 steps to interact with a database.
 
-- `sqlite.py` file hold basic method to perform following actions:
+- `sqlite.py` file holds basic methods to perform following actions:
+
+1. Create connection to a sqlite database
+2. Add/Insert values into the table
+3. Update values of the table
+4. Delete values from the table
+5. View the table values
+
+# 2. PostgreSQL
+
+- `postgresql.py` file holds basic methods to perform following actions on a postgresql database:
 
 1. Create connection to a sqlite database
 2. Add/Insert values into the table
