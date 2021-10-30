@@ -78,7 +78,7 @@ def update(quantity, price, item):
     conn.close()
 
 
-# create a tabel
+# create a table
 create_table()
 print(view())
 
