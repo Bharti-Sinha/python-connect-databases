@@ -17,7 +17,7 @@
 
 This repository intends to help beginners connect and manipulate databases such as SQLite and PostgreSQL using python. One can find functions in respective python files on how to establish connection with the database, create table, insert a new entry, update an existing entry and delete an entry.
 
-> Audience: Beginner
+> Audience: Beginner,
 > Language: Python
 
 # 1. SQLite <a name="sqlite"></a>
@@ -39,7 +39,7 @@ SQLite is an embedded database and runs within the application. It is 'serverles
 To work with PostgreSQL, you need to install PostgreSQl through one of the methods listed in the
 [site](https://www.postgresql.org/download/). Then enter username and password for the server and take a note of the port. A database is already created which can be connected using below code (refer 'postgresql.py' for deatils):
 
-`psycopg2.connect("dbname='database1', user='postgres', password='postgres' host='localhost' port='5432'")`
+`psycopg2.connect("dbname='database-name', user='user-name', password='password' host='localhost' port='port-name'")`
 
 The databases can be viewed, managed and developed using a graphical tool called pgAdmin.
 
