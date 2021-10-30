@@ -18,7 +18,7 @@ This repository intends to help beginners connect and manipulate databases such 
 > Audience: Beginner,
 > Language: Python
 
-# 1. SQLite <a name="sqlite"></a>
+# 1. SQLite <a name="sqlite"></a> )[sqlite](images/sqlite-icon.png)
 
 SQLite is an embedded database and runs within the application. It is 'serverless' database meaning, it does not require a server to operate. There is no configuration required for the setup process. SQLite is very small and light weight, less than 400KiB fully configured. SQLite is self-contained, which means no external dependencies are required. The library required to work with sqlite in python is `sqlite3` which comes pre-installed with python. If you aim to build small scale applications, SQLite database can provide the easiest way to get started.
 
