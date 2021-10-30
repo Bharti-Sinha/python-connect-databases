@@ -13,8 +13,6 @@
 
 # **Overview**
 
-# Introduction on how to connect to databases using Python
-
 This repository intends to help beginners connect and manipulate databases such as SQLite and PostgreSQL using python. One can find functions in respective python files on how to establish connection with the database, create table, insert a new entry, update an existing entry and delete an entry.
 
 > Audience: Beginner,
