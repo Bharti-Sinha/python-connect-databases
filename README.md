@@ -17,7 +17,7 @@
 
 - Language: _Python_
 
-This repository is intends to help beginners to connect to databases such as SQLite and PostgreSQL using python. If you want to build a small scale applications you can use sqlite database which is an embedded database and can run within your application.
+This repository is intends to help beginners to connect to databases such as SQLite and PostgreSQL using python. If you want to build a small scale application you can use sqlite database which is an embedded database and can run within your application.
 
 The PostgreSQL on the other hand deploys Client-Server Model and needs to set up a server.
 
